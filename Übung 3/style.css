@@ -1,0 +1,44 @@
+.container {
+  background-color: aqua;
+  height: 400px;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 40px;
+  position: relative;
+}
+
+.blackbox {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
+
+.greenbox {
+  background-color: green;
+  height: 40px;
+  width: 40px;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+}
+
+.container2 {
+  background-color: beige;
+  display: flex;
+  margin-top: 200px;
+  height: 100px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.box {
+  background-color: green;
+  height: 40px;
+  width: 40px;
+}

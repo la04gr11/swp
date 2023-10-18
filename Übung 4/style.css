@@ -1,0 +1,50 @@
+.container {
+  margin-top: 70px;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: row;
+}
+
+.greenbox {
+  background-color: green;
+  height: 300px;
+  width: 200px;
+}
+
+.bluebox {
+  position: relative;
+  background-color: blue;
+  height: 300px;
+  width: 200px;
+}
+.orangebox {
+  background-color: orange;
+  margin-left: 70px;
+  height: 100px;
+  width: 400px;
+}
+
+.blackbox {
+  background-color: black;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  right: 0;
+}
+
+.container2 {
+  background-color: beige;
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  display: grid;
+  justify-content: center;
+}
+
+.middlebox {
+  background-color: orange;
+  height: 125px;
+  width: 125px;
+}

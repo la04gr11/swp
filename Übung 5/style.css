@@ -1,0 +1,22 @@
+.box{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+.box2{
+    background-color: green;
+    height: 200px;
+    width: 200px;
+}
+.left{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px ;
+}
+
+.right{
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px ;
+}
+

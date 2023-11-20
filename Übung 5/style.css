@@ -13,10 +13,13 @@
     display: grid;
     grid-template-columns: 100px 100px 100px;
     grid-template-rows: 100px 100px ;
+    row-gap: 1px;
+    column-gap: 1px;
 }
 
 .right{
     grid-template-columns: 200px 200px;
     grid-template-rows: 200px ;
+    row-gap: 1px;
+    column-gap: 1px;
 }
-

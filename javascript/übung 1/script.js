@@ -8,8 +8,8 @@ const bananenGewicht = 0.22;
 const äpfelGewicht = 0.34;
 
 // Gib folgendes aus: Anzahl Bananen/Äpfel pro Kilo, Preis pro Banane/Apfel 
-console.log("Anzahl Bananen pro Kilo: " + (1 / bananaPricePerKilo));
-console.log("Anzahl Äpfel pro Kilo: " + (1 / applePricePerKilo));
+console.log("Anzahl Bananen pro Kilo: " + (1 / bananaPricePerKilo).toFixed(2));
+console.log("Anzahl Äpfel pro Kilo: " + (1 / applePricePerKilo).toFixed(2));
 console.log("Preis pro Banane: " + bananaPricePerKilo);
 console.log("Preis pro Apfel: " + applePricePerKilo);
 

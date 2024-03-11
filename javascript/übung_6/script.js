@@ -1,6 +1,6 @@
 
 var randomNumber = Math.floor(Math.random() * (10 - 5 + 1)) + 5;
-
+console.log(randomNumber);
 
 switch (randomNumber) {
     case 10:

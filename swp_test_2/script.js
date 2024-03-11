@@ -11,4 +11,3 @@ if(randomNumber == 35){
 if((randomNumber == 50)||(randomNumber == 51)){
     console.log("jupidu")
 }
-
